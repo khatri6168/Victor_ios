@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Download" representedClassName="Download" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="download_percentage" optional="YES" attributeType="String"/>
+        <attribute name="episode_count" optional="YES" attributeType="String"/>
+        <attribute name="isDownload" optional="YES" attributeType="String"/>
+        <attribute name="isShow" optional="YES" attributeType="String"/>
+        <attribute name="profile_id" optional="YES" attributeType="String"/>
+        <attribute name="profile_image" optional="YES" attributeType="String"/>
+        <attribute name="profile_name" optional="YES" attributeType="String"/>
+        <attribute name="show_id" optional="YES" attributeType="String"/>
+        <attribute name="show_image" optional="YES" attributeType="String"/>
+        <attribute name="show_name" optional="YES" attributeType="String"/>
+        <attribute name="video_id" optional="YES" attributeType="String"/>
+        <attribute name="video_name" optional="YES" attributeType="String"/>
+        <attribute name="video_url" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Download" positionX="-63" positionY="-18" width="128" height="224"/>
+    </elements>
+</model>
